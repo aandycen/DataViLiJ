@@ -1,0 +1,87 @@
+.scroll-pane
+{
+    -fx-hbar-policy : never;
+    -fx-vbar-policy : never;
+}
+.text-area {
+    text-area-background: white;
+}
+.text-area .content{
+    -fx-background-color: text-area-background;
+}
+
+.chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+}
+
+.axis:top {
+    -fx-border-color: transparent;
+}
+
+.axis:right {
+    -fx-border-color: transparent;
+}
+
+.axis:bottom {
+    -fx-border-color: transparent;
+}
+
+.axis:left {
+    -fx-border-color: transparent;
+}
+.axis:x {
+    -fx-border-color: transparent;
+}
+
+.axis:y {
+    -fx-border-color: transparent;
+}
+
+.chart-background {
+    -fx-border-color: transparent;
+}
+
+.chart-vertical-zero-line {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-zero-line {
+    -fx-stroke: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.axis {
+    -fx-tick-length: 25;
+    -fx-tick-label-fill: #993300;
+    -fx-minor-tick-length: 10;
+}
+
+.axis-tick-mark {
+    -fx-stroke: darkred;
+    -fx-stroke-width: 3;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-padding: 20px;
+}
+
+#algoConfig {
+    -fx-background-radius: 10;
+    -fx-min-width: 20px; 
+    -fx-min-height: 20px; 
+    -fx-max-width: 20px; 
+    -fx-max-height: 20px;
+}
+
+#algoTypeLabel {
+    -fx-text-fill:  darkred;
+}

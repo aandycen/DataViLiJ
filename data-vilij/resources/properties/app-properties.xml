@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Andy Cen 
+SBUID: 110982542
+CSE 219 
+-->
+
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- CSS -->
+        <property name="CHECKBOX_GRAY" value="text-area-background: #cccccc"/>
+        <property name="CHECKBOX_WHITE" value="text-area-background: white"/>
+        <property name="LINE_LOOKUP" value="chart-series-line"/>
+        <property name="INVIS_LINE" value="-fx-stroke: transparent"/>
+        <property name="CURSOR_STYLE" value="-fx-cursor: hand;"/>
+        
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="DATA_VILIJ_CSS" value="/gui/css/data-vilij.css"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="CONFIG_ICON" value="config.png"/>
+        <property name="RUN_ICON" value="run.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="TEXT_AREA" value="text-area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        
+        <!-- LABEL AND BUTTON NAMES -->
+        <property name="DATA_TEXT_AREA" value="Data File"/>
+        <property name="DATA_VISUALIZE" value="Data Visualization"/>
+        <property name="DISPLAY_NAME" value="Display"/>
+        <property name="READ_ONLY" value="Read Only"/>
+        <property name="AVERAGE_LINE" value="Average Y-Value"/>
+        <property name="EMPTY_SPACE" value=""/>
+
+        <!-- INPUT ERROR MESSAGES -->
+        <property name="INVALID_INPUT_TITLE" value="Invalid Input"/>
+        <property name="INVALID_DATA_MSG" value="Invalid Data Input At Line "/>
+        <property name="INVALID_NAME" value="Invalid Name"/>
+        <property name="DUPLICATE_NAME" value="You Have A Duplicate Data Name "/>
+        <property name="INVALID_INPUT_MESSAGE" value="All data instance names must start with the @ character"/>
+        <property name="INVALID_NUM_DATA" value="Please Enter Numeric Values For Data Points"/>
+        
+        <!-- FILE CHOOSER -->
+        <property name="LOAD_DATA_TITLE" value="Load Data File"/>
+        <property name="SET_DIRECTORY" value="data-vilij/resources/data"/>
+        <property name="NULL" value="null"/>
+        <property name="SAVED" value="Save Successful"/>
+        <property name="SAVE_IMAGE_EXT" value="png files (*.png)"/>
+        <property name="SAVE_IMAGE_PNG" value="*.png"/>
+        <property name="PNG" value="png"/>
+        
+        <!-- Load Data Info -->
+        <property name="INFO_ONE" value="Loaded data consists of "/>
+        <property name="INFO_TWO" value=" lines. Showing only the first 10 in text area."/>
+        
+        <property name="RUN_TOOLTIP" value="Run Algorithm"/>
+        <property name="RUN_NAME" value="Run"/>
+        <property name="CONFIG_BUTTON_CSS_ID" value="algoConfig"/>
+        <property name="RADIO_CLASSIFICATION" value="Random Classification"/>
+        <property name="RADIO_CLUSTERING" value="Random Clustering"/>
+        <property name="K_MEANS_CLUSTERING" value="K-Means Clustering"/>
+        <property name="CLASSIFICATION" value="Classification"/>
+        <property name="CLUSTERING" value="Clustering"/>
+        <property name="CONFIGURATION_DEFAULT_VALUE" value="1"/>
+        <property name="DEFAULT_CLUSTER_MIN" value="2"/>
+        <property name="DEFAULT_CLUSTER_MAX" value="4"/>
+        <property name="CLUSTERING_CLUSTER_LABEL" value="  Number of Clusters: "/>
+        <property name="ITERATION_LABEL" value="Max Iterations:         "/>
+        <property name="INTERVAL_LABEL" value="Update Interval:       "/>
+        <property name="CONTINUOUS_LABEL" value="Continuous Run?     "/>
+        <property name="CONFIG_WINDOW_TITLE" value="Algorithm Run Configuration"/>
+        <property name="ALGORITHM_LABEL_CSS_ID" value="algoTypeLabel"/>
+        <property name="FILE_INFO_ONE" value=" instances with "/>
+        <property name="FILE_INFO_TWO" value=" labels loaded from "/>
+        <property name="FILE_INFO_THREE" value=". The labels are:"/>
+        <property name="SOURCEDATA_NULL" value="new data from user"/>
+        <property name="CREATE_DATA_ERROR_ONE" value="New Data Error"/>
+        <property name="CREATE_DATA_ERROR_TWO" value="You are already creating new data."/>
+        <property name="CONFIRMATION_YES" value="YES"/>
+        <property name="EXIT_WHILE_RUNNING_TITLE" value="Algorithm Currently Running"/>
+        <property name="DONE_TOGGLE_NAME" value="Done"/>
+        <property name="EDIT_TOGGLE_NAME" value="Edit"/>
+        <property name="SELECTION_BOX_TITLE" value="Select Algorithm Type"/>
+        <property name="BACK_BUTTON_NAME" value="Back"/>
+        <property name="UPDATE_BUTTON_RUNNING" value="Running..."/>
+        <property name="CANCEL_RUN" value="Cancel Run"/>
+        <property name="UPDATE_BUTTON_RESUME" value="Resume"/>
+        <property name="PROMPT_TEXT" value="@instance1 [TAB] label1 [TAB] 14,4      @Instance2 [TAB] label2 [TAB] 5,5"/>
+        <property name="ALGORITHMS_FOLDER" value="data-vilij/resources/algorithms"/>
+        <property name="ALGO_ITERATION_LABEL" value="Iteration: "/>
+        <property name="RClusterer" value="RandomClusterer"/>
+        <property name="KClusterer" value="KMeansClusterer"/>
+        <property name="RClassifier" value="RandomClassifier"/>
+        <property name="INVALID_LABEL_TITLE" value="Invalid Label Name"/>
+        <property name="INVALID_LABEL" value="One Or More Data Label Name Is Empty"/>
+        
+    </property_list>
+    <property_options_list/>
+</properties>

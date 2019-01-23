@@ -1,0 +1,7 @@
+@instance1	label1	2,2
+@instance2	label2	4,4
+@instance3	label1	5,5
+@instance4	label2	6,6
+@instance5	null	10,10
+@instance6	label1	-5,-5
+@instance7	label2	-6,8
