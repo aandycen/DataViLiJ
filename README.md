@@ -1,6 +1,6 @@
 <p align="center"> <img width="250" height="250" src="/images/logo.png"> </p>
 
-<h1 style="text-align:center"> Data Visualization Library in Java (DataViLiJ) </h1>
+### **<p align="center">Data Visualization Library in Java (DataViLiJ) </p>**
 
 <p align="center"> The internal works of fundamental algorithms
 
